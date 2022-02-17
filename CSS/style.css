@@ -1,0 +1,54 @@
+body {
+				background-color: white;
+       color: black;
+}
+h1, h2, h3, h4, h5, h6, p{
+				font-family: 'Mochiy Pop P One', sans-serif;
+				color: black;
+}
+a{
+				text-decoration: none;
+				font-family: 'Mochiy Pop P One', sans-serif;				
+}
+button {
+       background-color: greenyellow;
+       padding: 8.5px;
+       border: 2px solid black;
+       font-family: 'Mochiy Pop P One', sans-serif;
+       }
+       .logo-animate {
+        position: relative;
+        font-size: 35px;
+				font-family: 'Mochiy Pop P One', sans-serif;
+				animation-delay: 0.7s;
+				animation-duration: 15.5s;
+				animation-iteration-count: 9990;
+				animation-name: logo;
+}
+#home {
+				background-image: url('bg.png');
+}
+#Download {
+				background-image: url('bg.png');
+}
+#Set-Up {
+				background-image: url('bg.png');
+}
+#News {
+				background-image: url('bg.png');
+}
+footer {
+   background-color: cyan;
+}
+@keyframes logo {
+10% {color: yellow;}
+20% {color: red;}
+30% {color: yellow;}
+40% {color: red;}
+50% {color: yellow;}
+60% {color: red;}
+70% {color: yellow;}
+80% {color: red;}
+90% {color: yellow;}
+100% {color: red;}
+}
